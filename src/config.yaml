@@ -161,6 +161,7 @@ Raspberrypi_GPIO_Control:
 
 #Spotify credentials. Register for a spotify developer and get the credentials.
 Spotify:
+  Spotify_Control: 'Disabled'
   client_id: 'ENTER YOUR SPOTIFY CLIENT ID HERE'
   client_secret: 'ENTER YOUR SPOTIFY CLIENT SECRET HERE'
   username: 'ENTER YOUR SPOTIFY USERNAME HERE'
