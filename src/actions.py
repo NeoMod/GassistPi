@@ -85,7 +85,7 @@ else:
 
 # Spotify Declarations
 # Register with spotify for a developer account to get client-id and client-secret
-if configuration['Spotify']['client_id']!= 'ENTER YOUR SPOTIFY CLIENT ID HERE' and configuration['Spotify']['client_secret']!='ENTER YOUR SPOTIFY CLIENT SECRET HERE':
+if configuration['Spotify']['Spotify_Control']=='Enabled':
     client_id = configuration['Spotify']['client_id']
     client_secret = configuration['Spotify']['client_secret']
     username=configuration['Spotify']['username']
